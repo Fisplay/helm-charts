@@ -9,7 +9,7 @@ entries:
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
-      repository: https://p2-inc.github.io/helm-charts
+      repository: https://fisplay.github.io/helm-charts
       version: 12.x.x
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -33,7 +33,7 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/keycloak
     - https://github.com/keycloak/keycloak
     urls:
-    - https://p2-inc.github.io/helm-charts/keycloak-20.0.1674047714.tgz
+    - https://fisplay.github.io/helm-charts/keycloak-20.0.1674047714.tgz
     version: 20.0.1674047714
   - annotations:
       category: DeveloperTools
@@ -67,7 +67,7 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/keycloak
     - https://github.com/keycloak/keycloak
     urls:
-    - https://p2-inc.github.io/helm-charts/keycloak-20.0.1671556844.tgz
+    - https://fisplay.github.io/helm-charts/keycloak-20.0.1671556844.tgz
     version: 20.0.1671556844
   postgresql:
   - annotations:
